@@ -1,4 +1,20 @@
-/* General Reset */
+/* Container for the image */
+.image-container {
+  position: relative;        /* Allows positioning of the image inside */
+  width: 300px;              /* Default width, can be changed */
+  height: 300px;             /* Default height, can be changed */
+  overflow: hidden;          /* Ensures the image doesn't spill outside */
+}
+
+/* The image itself */
+.image-container img {
+  position: absolute;        /* So you can move it inside the container */
+  top: 0;                    /* Adjust vertical position */
+  left: 50;                   /* Adjust horizontal position */
+  width: 25%;               /* Can be changed to any size, e.g., 50%, 200px */
+  height: 25%;              /* Can also be set independently */
+  object-fit: contain;       /* Keeps image aspect ratio */
+}/* General Reset */
 * {
     margin: 0;
     padding: 0;
