@@ -1,8 +1,8 @@
 /* Container for the image */
 .image-container {
   position: relative;        /* Allows positioning of the image inside */
-  width: 30px;              /* Default width, can be changed */
-  height: 30px;             /* Default height, can be changed */
+  width: 300px;              /* Default width, can be changed */
+  height: 300px;             /* Default height, can be changed */
   overflow: hidden;          /* Ensures the image doesn't spill outside */
 }
 
